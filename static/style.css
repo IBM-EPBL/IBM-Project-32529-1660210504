@@ -22,10 +22,6 @@ header {
     padding: 30px 10%;
 }
 
-body {
-    background-color: #0A2624;
-}
-
 .logo {
     cursor: pointer;
     margin-right: auto;

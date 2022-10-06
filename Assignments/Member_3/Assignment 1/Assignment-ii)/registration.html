@@ -1,0 +1,70 @@
+<!DOCTYPE html>   
+<html>   
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<title> Login Page </title>  
+<style>   
+Body {  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color:white;  
+}  
+button {   
+       background-color: #4CAF50;   
+       width: 100%;  
+        color: orange;   
+        padding: 15px;   
+        margin: 10px 0px;   
+        border: none;   
+        cursor: pointer;   
+         }   
+   
+ input[type=text], input[type=password],input[type=email] {   
+        width: 100%;   
+        margin: 8px 0;  
+        padding: 12px 12px 12px;   
+        display: inline-block;   
+        border: 2px solid green;   
+        box-sizing: border-box;   
+    }  
+ button:hover {   
+        opacity: 0.7;   
+    }   
+     
+     
+ .container {   
+        padding: 50px;   
+        background-color: lightblue;
+        padding: 15px;
+        width: 25%;
+        
+    }   
+</style>   
+</head>    
+<body> 
+    <center> <h1> Student Login Form </h1> </center>   
+    <form>  
+        <div class="container">   
+            <label>Username : </label>   
+            <input type="text" placeholder="Enter Username" name="username" required>  
+            <label>Email :</label>  
+            <input type="email" placeholder="Enter email" name="email" required>
+            <label>Password : </label> 
+            <input type="password" placeholder="Enter Password" name="password" required>  
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female<br><br>
+            <label for="dept">Choose a Department:</label>
+            <select name="Department" id="dept">
+                <option value="IT">IT</option>
+                <option value="CSE">CSE</option>
+                <option value="EEE">EEE</option>
+                <option value="ECE">ECE</option>
+                <option value="CIVIL">CIVIL</option>
+                <option value="MECH">MECH</option>
+              </select>      
+            <button type="submit"><a  href="login success.html">Login</a></button>  
+            
+           
+        </div>   
+    </form>     
+</body>     
+</html> 

@@ -12,20 +12,20 @@ app = Flask(__name__)
 def home():
     return render_template('home.html')
 
-@app.route('/signin', methods=['GET', 'POST'])
-def signin():
+# @app.route('/signin', methods=['GET', 'POST'])
+# def signin():
 
-@app.route('/dashboard', methods=['GET', 'POST'])
-def dashboard():
-    return render_template('dashboard.html')
+# @app.route('/dashboard', methods=['GET', 'POST'])
+# def dashboard():
+#     return render_template('dashboard.html')
 
-@app.route('/logout', methods=['GET','POST'])
-def logout():
-    logout_user()
-    return redirect(url_for('login'))
+# @app.route('/logout', methods=['GET','POST'])
+# def logout():
+#     logout_user()
+#     return redirect(url_for('login'))
 
-@app.route('/signup', methods=['GET', 'POST'])
-def signup():
+# @app.route('/signup', methods=['GET', 'POST'])
+# def signup():
     
 
 @app.route('/dashboard')

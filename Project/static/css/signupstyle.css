@@ -1,0 +1,43 @@
+#navigation_bar {
+    background-color: #db1313;
+    margin: 10px;
+    padding: 5px;
+    padding-bottom: 10px;
+}
+
+#navigation_bar ul {
+    list-style: none;
+    display: flex;
+    padding-left: 110px;
+    padding-top: 15px ;
+}
+
+#navigation_bar li {
+    text-decoration: none;
+    padding-top: 20px;
+    padding-right: 60px;
+    
+}
+
+#navigation_bar li a {
+    padding-left: 25px;
+    text-decoration: none;
+    font-size: 19px;
+    color: black;
+    display:block;
+    width: 75px;
+    font-family: 'Albert Sans', sans-serif;
+}
+
+#nav_img {
+    padding-right:50px;
+}
+
+.signup {
+    font-family: 'Albert Sans', sans-serif;
+    color: rgb(87, 148, 37);
+}
+
+body{
+    background-color: black;
+}

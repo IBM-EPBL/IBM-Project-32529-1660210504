@@ -13,9 +13,9 @@
 <body>
     <div id="navigation_bar">
         <ul>
-            <a href="index.html">
+            <a href="index.php">
                 <img id="nav_img" src="../static/sitelogo.png" alt="site_logo" width="290" height="60"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li><a style="color:rgb(233, 240, 243);"href="#signin">Sign In</a></li> 
             <li><a style="color:rgb(233, 240, 243);"href="signup.html">Sign Up</a></li> 
         </ul>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Images Display</title>
+       
+        <div id="head1"><hr><h2>Ibm - Object Storage</h2><hr></div>
+
+        <link rel="stylesheet" href="https://ramagopal.s3.jp-tok.cloud-object-storage.appdomain.cloud/Ram.css">
+    </head>
+    <body>
+        
+        <div id="flower1">
+           <div id="img1"><img src="https://ramagopal.s3.jp-tok.cloud-object-storage.appdomain.cloud/R1.jfif" width="250px" height="200px"></div><br>
+           <div id="img2">  <img src="https://ramagopal.s3.jp-tok.cloud-object-storage.appdomain.cloud/R2.jfif" width="250px" height="200px"></div><br><br>
+           <div id="img3"><img src="https://ramagopal.s3.jp-tok.cloud-object-storage.appdomain.cloud/R3.jfif" width="250px" height="200px"></div>
+        </div>
+<div id="flower2"><div id="img4"><img src="https://ramagopal.s3.jp-tok.cloud-object-storage.appdomain.cloud/R4.jfif" width="250px" height="200px"></div><br>
+           <div id="img5"> <img src="https://ramagopal.s3.jp-tok.cloud-object-storage.appdomain.cloud/R5.jfif" width="250px" height="200px"></div>
+           
+        </div>
+         
+<script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "975d8d7f-c82f-4353-8947-1b5eb1d0787c", // The ID of this integration.
+    region: "eu-gb", // The region your integration is hosted in.
+    serviceInstanceID: "a8f6b9ff-a594-49ab-ad44-24531f8635f7", // The ID of your service instance.
+    onLoad: function(instance) { instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+    </body>
+</html>

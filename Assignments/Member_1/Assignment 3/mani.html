@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Images Display</title>
+       
+        <div id="head1"><hr><h2>Ibm - Object Storage</h2><hr></div>
+
+        <link rel="stylesheet" href="https://manikandan.s3.jp-tok.cloud-object-storage.appdomain.cloud/mani.css">
+    </head>
+    <body>
+        
+        <div id="car1">
+           <div id="img1"><img src="https://manikandan.s3.jp-tok.cloud-object-storage.appdomain.cloud/m1.webp" width="250px" height="200px"></div><br>
+           <div id="img2">  <img src="https://manikandan.s3.jp-tok.cloud-object-storage.appdomain.cloud/m2.jfif" width="250px" height="200px"></div><br><br>
+           <div id="img3"><img src="https://manikandan.s3.jp-tok.cloud-object-storage.appdomain.cloud/m3.jfif" width="250px" height="200px"></div>
+        </div>
+<div id="car2"><div id="img4"><img src="https://manikandan.s3.jp-tok.cloud-object-storage.appdomain.cloud/m4.jfif" width="250px" height="200px"></div><br>
+           <div id="img5"> <img src="https://manikandan.s3.jp-tok.cloud-object-storage.appdomain.cloud/m5.jfif" width="250px" height="200px"></div>
+           
+        </div>
+         
+<script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "0ce1c2d2-15d0-4a2a-a816-aa9a091db8bc", // The ID of this integration.
+    region: "eu-gb", // The region your integration is hosted in.
+    serviceInstanceID: "5866b4df-7c5f-42da-a299-65d06137a38d", // The ID of your service instance.
+    onLoad: function(instance) { instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+    </body>
+</html>

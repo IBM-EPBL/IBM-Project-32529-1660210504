@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Images Display</title>
+       
+        <div id="head1"><hr><h2>Ibm - Object Storage</h2><hr></div>
+
+        <link rel="stylesheet" href="https://mala.s3.jp-tok.cloud-object-storage.appdomain.cloud/mala.css">
+    </head>
+    <body>
+        
+        <div id="flower1">
+           <div id="img1"><img src="https://mala.s3.jp-tok.cloud-object-storage.appdomain.cloud/f1.webp" width="250px" height="200px"></div><br>
+           <div id="img2">  <img src="https://mala.s3.jp-tok.cloud-object-storage.appdomain.cloud/f2.jfif" width="250px" height="200px"></div><br><br>
+           <div id="img3"><img src="https://mala.s3.jp-tok.cloud-object-storage.appdomain.cloud/f3.jfif" width="250px" height="200px"></div>
+        </div>
+<div id="flower2"><div id="img4"><img src="https://mala.s3.jp-tok.cloud-object-storage.appdomain.cloud/f4.jfif" width="250px" height="200px"></div><br>
+           <div id="img5"> <img src="https://mala.s3.jp-tok.cloud-object-storage.appdomain.cloud/f5.jfif" width="250px" height="200px"></div>
+           
+        </div>
+         
+       <script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "d9cf8806-2b01-4cd7-a0e3-1b705fb24dd3", // The ID of this integration.
+    region: "eu-gb", // The region your integration is hosted in.
+    serviceInstanceID: "9e410d53-ed65-447b-90ae-aa60d7963fc5", // The ID of your service instance.
+    onLoad: function(instance) { instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+    </body>
+</html>

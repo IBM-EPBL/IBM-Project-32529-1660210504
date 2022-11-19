@@ -2,6 +2,35 @@
     font-family: 'Alegreya', serif !important;
 }
 
+#card-body {
+    text-align: center;
+}
+
+#card-title {
+    text-align: center;
+    font-size: 35px;
+}
+
+#card-text {
+    text-align: center;
+    padding-top: 60px;
+    margin-left: 480px;
+    margin-right: 480px;
+    font-size: 20px;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-text {
+    text-align: center;
+}
+
+/* .btn btn-primary {
+    text-align: center;
+} */
+
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
 
